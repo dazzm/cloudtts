@@ -6,7 +6,7 @@
   "scripts": {
     "start": "set GOOGLE_APPLICATION_CREDENTIALS=keys/cloudspeaker-59ae824d96a6.json&& node index.js"
   },
-  "author": "Md Shams Azam",
+  "author": "dazzm",
   "license": "ISC",
   "bin": {
   	"cloudtts": "set GOOGLE_APPLICATION_CREDENTIALS=keys/cloudspeaker-59ae824d96a6.json&& node index.js"
