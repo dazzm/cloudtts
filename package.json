@@ -1,0 +1,14 @@
+{
+  "name": "cloudtts",
+  "version": "1.0.0",
+  "description": "cloud based text to speech",
+  "main": "index.js",
+  "scripts": {
+    "start": "set GOOGLE_APPLICATION_CREDENTIALS=keys/cloudspeaker-59ae824d96a6.json&& node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^0.3.0"
+  }
+}
